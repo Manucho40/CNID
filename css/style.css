@@ -551,7 +551,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Sections Header
 --------------------------------*/
+.texte{
+  font-weight: bold;  
+  background-color:  black; 
+  border: solid 10px #70a5d7; 
+  border-radius: 30px; 
+  padding-top: 20px; 
+  text-align: justify !important; 
+  color: white !important;
+  transition: 3s;
+}
 
+.texte:hover{
+  background-color:  #70a5d7; 
+  border: solid 10px black;
+  color: black !important;
+}
 .section-header h3 {
   font-size: 32px;
   color: #111;
